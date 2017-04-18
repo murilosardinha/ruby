@@ -162,5 +162,7 @@ module PagSeguro
       "lib-description"             => "ruby:#{PagSeguro::VERSION}",
       "language-engine-description" => "ruby:#{RUBY_VERSION}"
     }
+
+    config.timeout = 30
   end
 end
